@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catat Peminjaman</title>
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/stylebase.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../adminlogin.html" class="logo">Logout</a>
+        <nav class="navbar">
+            <a href="buku.html">Data Buku</a>
+            <a href="admincatat.html">Catat Peminjaman</a>
+            <a href="admindata.html">Data Peminjaman</a>
+        </nav>
+    </header>
+    <div class="center">
+    <table class="rectangle">
+        <tr>
+            <th>Nama Anggota</th>
+            <td><select style="padding: 12px 25px;" name="Nama Siswa" id="">
+                <option value="kosong">-</option>
+                <option value="zacky">Zacky Yusuf</option>
+                <option value="fariz">Fariz Fahrun</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Kode Buku</th>
+            <td><select style="padding: 12px 30px;" name="Kode Buku" id="" >
+                <option value="kosong">-</option>
+                <option value="buku1">01NOV-001</option>
+                <option value="buku2">01NOV-002</option>
+                <option value="buku3">01NOV-003</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>Jumlah Pinjam</th>
+            <td><input style="padding: 12px 0%; text-align: center;" type="number" name="jumlah"></td>
+        </tr>
+        <tr>
+            <th>Tanggal Pinjam</th>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>Tanggal Kembali</th>
+            <td><input type="date" ></td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <form action="success.html">
+                    <button style="position: relative; left: 200%;">Catat</button>
+                </form></td>
+                
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

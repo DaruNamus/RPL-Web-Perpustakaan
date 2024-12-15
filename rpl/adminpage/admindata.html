@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Peminjaman</title>
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/stylebase.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../adminlogin.html" class="logo">Logout</a>
+        <nav class="navbar">
+            <a href="buku.html">Data Buku</a>
+            <a href="admincatat.html">Catat Peminjaman</a>
+            <a href="admindata.html">Data Peminjaman</a>
+        </nav>
+    </header>
+    <span class="center">
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama Siswa</th>
+            <th>Kode Buku</th>
+            <th>Tanggal Peminjaman</th>
+            <th>Tanggal Pengembalian</th>
+            <th>Denda</th>
+            <th>Pengembalian</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Zacky Yusuf</td>
+            <td>01NOV-001</td>
+            <td>24-11-2023</td>
+            <td>01-12-2023</td>
+            <td>Rp. 40.000</td>
+            <td><button class="buttonkonfirmasi" onclick="changeColor(this)">Konfirmasi</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Zacky Yusuf</td>
+            <td>01NOV-002</td>
+            <td>29-12-2023</td>
+            <td>05-01-2024</td>
+            <td>Rp. 0</td>
+            <td><button class="buttonkonfirmasikembali">Konfirmasi</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fariz Fahrun</td>
+            <td>01NOV-004</td>
+            <td>26-12-2023</td>
+            <td>02-01-2024</td>
+            <td>Rp. 30.000</td>
+            <td><button class="buttonkonfirmasi" onclick="changeColor(this)">Konfirmasi</button></td>
+        </tr>
+    </table>
+    </span>
+    <script>
+        function changeColor(event){
+            var color = '#cbfcd6';
+            event.style.backgroundColor=color;
+        }
+    </script>
+</body>
+</html>

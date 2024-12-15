@@ -1,0 +1,35 @@
+.rectanglenotif {
+    position: fixed;
+    right: 100%;
+    bottom: 0;
+    border-radius: 1.625rem;
+    border: 1px solid #eee;
+    background: #F8F2F2;
+    padding: -0.4em;
+    opacity: 0;
+    z-index: 100;
+    animation: fade-in 4s linear forwards;
+  }
+
+.notification {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-image: linear-gradient(to right, red, blue);
+    border-radius: 5px;
+    animation: load 3s 0.25s linear forwards;
+  }
+  
+  @keyframes fade-in{
+    10%{
+      opacity: 1;
+    }
+  }
+/*
+    <div class="rectanglenotif">
+        <h4>Akun Telah Berhasil Dibuat</h4>
+        <span class="notification"></span>
+    </div>
+*/
