@@ -1,6 +1,6 @@
 # RPL Web Perpustakaan PROTOTYPE
 ## Deskripsi
-Web Perpusatakaan (PROTOTYPE Non-Database) dengan sistem login. Terdapat 2 Level User : Admin, User
+Web Perpusatakaan (PROTOTYPE Non-Database) dengan sistem login untuk memenuhi tugas akhir matakuliah Rekayasa Perangkat Lunak. Terdapat 2 Level User : Admin, User
 1. Admin : Tambah / Edit / Hapus buku, Melihat Peminjam
 2. User : Melakukan request pinjam, Melihat riwayat peminjaman, Melihat tenggat waktu pengembalian
 
